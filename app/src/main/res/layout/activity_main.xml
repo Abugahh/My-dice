@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="#cead53"
+        android:text="Roll"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:text="count"
+        android:textSize="20sp"
+        android:backgroundTint="#cead53" />
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:text="9"
+
+        android:textStyle="bold"
+        android:textColor="@color/mycolors"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:background="#656765"/>
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Toast"
+        android:textSize="20sp"
+        android:backgroundTint="@color/mycolors" />
+</RelativeLayout>
